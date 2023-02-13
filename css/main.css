@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
 
+/*#region core*/
 h1 {
   background-color: rgb(28, 160, 61);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
@@ -12,12 +13,18 @@ h1 {
   color: rgb(255, 208, 0);
 }
 
-body {
-  background-color: gold;
-  font-family: "Irish Grover", sans-serif;
+.footer{
+  position: fixed;
+  background-color: #267c19;
+  border: solid #ffa200;
+  color: white;
+  text-align: center;
+  margin-top: 3.3em;
+  width: 118em;
 }
 
 .indexBar {
+  border-radius: 1em;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   display: flex;
@@ -48,9 +55,112 @@ body {
   font-size: x-large;
 }
 
-img.leprachaun {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+body {
+  background-color: gold;
+  font-family: "Irish Grover", sans-serif;
+}
+
+h2.second-Header {
+  background-color: #28801a;
+  border: solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin-left: 28em;
+  margin-top: 1em;
+  width: 20em;
+  color: #ffa200;
+}
+
+
+/*#endregion*/
+
+/*#region homepage*/
+.home-Icon {
+  position: absolute;
+  margin-top: -3em;
   width: 30%;
 }
+
+.grass1{
+  position:fixed;
+  margin-top: -11em;
+  margin-left: -63em;
+}
+
+.grass2{
+  position:fixed;
+  margin-top: -10em;
+  margin-left: 44em;
+}
+
+.lepra-small{
+  position:fixed;
+  margin-top: -13em;
+  margin-left: 40em;
+}
+
+.cloud {
+  margin-left: 30em;
+  margin-top: 10em;
+}
+
+.cloudSmall {
+  width: 5em;
+  height: 5em;
+  margin-left: -1em;
+  margin-bottom: -3em;
+}
+
+.cloud-Text {
+  position: absolute;
+  margin-left: 17em;
+  margin-top: 9em;
+  font-size: xx-large;
+}
+
+.leprachaun {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20em;
+  width: 30%;
+  transition: width 2s;
+}
+
+.leprachaun:hover {
+  width: 450px;
+}
+/*#endregion*/
+
+/*#region about-us*/
+.about-us {
+  border-radius: 1em;
+  background-color: #1eac08;
+  border: solid white;
+  text-align: center;
+  color: #ffa200;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #0c0c0c;
+}
+
+.about-main-text{
+  background-color: #267c19;
+  width: 60em;
+  margin-left: 10em;
+  border: solid black;
+  font-size: x-large;
+}
+
+.map{
+  border: solid rgb(249, 155, 3) .5em;
+}
+
+.about-p2{
+  float: right;
+  margin-right: 15em;
+  margin-top: 10em;
+  background-color: #267c19;
+  border: solid white 5px;
+}
+/*#endregion*/
