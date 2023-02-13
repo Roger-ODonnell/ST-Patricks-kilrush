@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+
+h1 {
+  background-color: rgb(28, 160, 61);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  border: solid rgb(9, 45, 9);
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: 15em;
+  color: rgb(255, 208, 0);
+}
+
+body {
+  background-color: gold;
+  font-family: "Irish Grover", sans-serif;
+}
+
+.indexBar {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 1em;
+  background-color: #1eac08;
+  border: solid #ffa200;
+  border-width: 0.2em;
+}
+
+.indexBar a {
+  display: block;
+  text-decoration: none;
+  text-indent: 5em;
+  margin: 1em;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: large;
+  top: 0.75em;
+  bottom: 0.75em;
+  left: 1em;
+  right: 1m;
+}
+
+.indexBar a:hover {
+  transition: 0.5s;
+  font-size: x-large;
+}
+
+img.leprachaun {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
