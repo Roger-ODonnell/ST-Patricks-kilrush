@@ -13,13 +13,13 @@ h1 {
   color: rgb(255, 208, 0);
 }
 
-.footer{
+.footer {
   position: fixed;
   background-color: #267c19;
   border: solid #ffa200;
   color: white;
   text-align: center;
-  margin-top: 3.3em;
+  margin-top: 0.5em;
   width: 118em;
 }
 
@@ -60,17 +60,13 @@ body {
   font-family: "Irish Grover", sans-serif;
 }
 
-h2.second-Header {
-  background-color: #28801a;
-  border: solid rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
-  margin-left: 28em;
-  margin-top: 1em;
-  width: 20em;
+.main-content {
+  border-radius: 1em;
+  background-color: #9ac794;
+  border: solid white;
   color: #ffa200;
+  border-radius: 0.5em;
 }
-
 
 /*#endregion*/
 
@@ -81,20 +77,20 @@ h2.second-Header {
   width: 30%;
 }
 
-.grass1{
-  position:fixed;
+.grass1 {
+  position: fixed;
   margin-top: -11em;
   margin-left: -63em;
 }
 
-.grass2{
-  position:fixed;
+.grass2 {
+  position: fixed;
   margin-top: -10em;
   margin-left: 44em;
 }
 
-.lepra-small{
-  position:fixed;
+.lepra-small {
+  position: fixed;
   margin-top: -13em;
   margin-left: 40em;
 }
@@ -136,31 +132,94 @@ h2.second-Header {
 /*#region about-us*/
 .about-us {
   border-radius: 1em;
-  background-color: #1eac08;
+  background-color: #9ac794;
   border: solid white;
   text-align: center;
   color: #ffa200;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #0c0c0c;
+  border-radius: 0.5em;
 }
 
-.about-main-text{
-  background-color: #267c19;
+.about-main-text {
+  background-color: #277f1a;
   width: 60em;
   margin-left: 10em;
-  border: solid black;
+  border: solid rgb(255, 255, 255);
   font-size: x-large;
+  border-radius: 0.5em;
 }
 
-.map{
-  border: solid rgb(249, 155, 3) .5em;
+.map {
+  border: solid rgb(249, 155, 3) 0.5em;
+  margin-left: -15em;
 }
 
-.about-p2{
+.second-Header-about-us {
+  background-color: #2b921b;
+  border: solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin-left: 28em;
+  margin-top: 1em;
+  width: 20em;
+  color: #ffa200;
+  border-radius: 0.5em;
+}
+
+.fun-facts-header {
+  margin-top: -5em;
   float: right;
-  margin-right: 15em;
-  margin-top: 10em;
-  background-color: #267c19;
-  border: solid white 5px;
+  margin-right: 7em;
+  margin-top: -13em;
+  width: 11em;
+  background-color: #2b921b;
+  border: solid rgb(255, 255, 255);
+  font-size: xx-large;
 }
+
+.fact-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.fact {
+  color: white;
+  float: right;
+  text-align: center;
+  font-size: large;
+  background-color: #2b921b;
+  border: solid rgb(233, 176, 5);
+  margin: -20em 12em;
+  width: 20em;
+  padding: 5px;
+}
+
+.fact2 {
+  color: white;
+  float: right;
+  text-align: center;
+  font-size: large;
+  background-color: #2b921b;
+  border: solid rgb(233, 176, 5);
+  margin: -14em 12em;
+  width: 20em;
+  padding: 5px;
+}
+
+.fact3 {
+  color: white;
+  float: right;
+  text-align: center;
+  font-size: large;
+  background-color: #2b921b;
+  border: solid rgb(233, 176, 5);
+  margin: -10em 12em;
+  width: 20em;
+  padding: 5px;
+}
+
+
 /*#endregion*/
