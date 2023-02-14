@@ -1,33 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book Your Spot!</title>
     <link rel="stylesheet" href="../css/main.css" />
-</head>
-<body>
+  </head>
+  <body>
     <h1>St Patricks Day - Kilrush!</h1>
-    <a class="home-Icon" href="../index.html" target=""><img src="/Images/logo.png" width="200" height="200"/></a>
-
+    <a class="home-Icon" href="../index.html" target=""
+      ><img src="/Images/logo.png" width="200" height="200"
+    /></a>
 
     <ul class="indexBar">
-        <li><a href="../index.html">Homepage</a></li>
-        <li><a href="About-Us.html">About Us</a></li>
-        <li><a href="Gallery.html">Gallery</a></li>
-        <li><a href="">Book Your Spot!</a></li>
-        <li><a href="Contact-Us.html">Contact Us!</a></li>
-      </ul>
-      
-      <div class="main-content">
-        
-      </div>
-      
-      <footer class="footer">
-        <img class="grass1" src="../Images/grass.png">
-        <img class="grass2" src="../Images/grass.png">
-        <p>Kilrush, County Clare</p>
-      </footer>
-</body>
+      <li><a href="../index.html">Homepage</a></li>
+      <li><a href="About-Us.html">About Us</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+      <li><a href="">Book Your Spot!</a></li>
+      <li><a href="Contact-Us.html">Contact Us!</a></li>
+    </ul>
+
+    <div class="main-content">
+      <h2 class="h2-main">Book Your Place In Our Parade!</h2>
+      <form class="book-form">
+        <h2 class="h2-form">Book Here!</h2>
+        <label class="book-field-header" for="fname">First Name: </label><br />
+        <input class="book-field" type="text" name="fname" placeholder="Enter First Name" /><br />
+        <label class="book-field-header" for="lname">Last Name:</label><br />
+        <input class="book-field" type="text" name="lname" placeholder="Enter Last Name"/>
+        <label class="book-field-header" for="lname">Community Name:</label
+        ><br />
+        <input class="book-field" type="text"  placeholder="Enter Community Name"/>
+        <br />
+        <label class="book-field-header" >Contact Number:</label
+        ><br />
+        <input class="book-field" type="text" placeholder="Enter Number"/>
+        <label class="book-field-header">Contact Email:</label
+        ><br />
+        <input class="book-field" type="text" placeholder="Enter Email"/>
+        <label class="book-field-header" for="lname"
+          >Tell us about your community:</label
+        ><br />
+        <textarea
+          class="book-field"
+          name="message"
+          rows="5"
+          cols="30"
+          placeholder="This will be read out when you pass the booth!"
+        ></textarea>
+        <input class="Submit" type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <footer class="book-footer">
+      <img class="grass1" src="../Images/grass.png" />
+      <img class="lepra-small" src="../Images/lepra-small.png" />
+      <img class="grass2" src="../Images/grass.png" />
+      <p>Kilrush, County Clare</p>
+    </footer>
+  </body>
 </html>

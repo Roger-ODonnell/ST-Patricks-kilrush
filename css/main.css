@@ -142,7 +142,7 @@ body {
 }
 
 .about-main-text {
-  background-color: #277f1a;
+  background-color: #674848;
   width: 60em;
   margin-left: 10em;
   border: solid rgb(255, 255, 255);
@@ -156,7 +156,7 @@ body {
 }
 
 .second-Header-about-us {
-  background-color: #2b921b;
+  background-color: #674848;
   border: solid rgb(255, 255, 255);
   display: flex;
   justify-content: center;
@@ -173,7 +173,7 @@ body {
   margin-right: 7em;
   margin-top: -13em;
   width: 11em;
-  background-color: #2b921b;
+  background-color: #674848;
   border: solid rgb(255, 255, 255);
   font-size: xx-large;
 }
@@ -190,7 +190,7 @@ body {
   float: right;
   text-align: center;
   font-size: large;
-  background-color: #2b921b;
+  background-color: #674848;
   border: solid rgb(233, 176, 5);
   margin: -20em 12em;
   width: 20em;
@@ -202,7 +202,7 @@ body {
   float: right;
   text-align: center;
   font-size: large;
-  background-color: #2b921b;
+  background-color: #674848;
   border: solid rgb(233, 176, 5);
   margin: -14em 12em;
   width: 20em;
@@ -214,12 +214,85 @@ body {
   float: right;
   text-align: center;
   font-size: large;
-  background-color: #2b921b;
+  background-color: #674848;
   border: solid rgb(233, 176, 5);
   margin: -10em 12em;
   width: 20em;
   padding: 5px;
 }
 
+/*#endregion*/
 
+/*#region bookSpot*/
+.h2-main {
+  background-color: #2b921b;
+  border: solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin-left: 28em;
+  margin-top: 1em;
+  width: 20em;
+  color: #ffa200;
+  border-radius: 0.5em;
+}
+
+.book-form{
+  background-color: #2b921b;
+  border: solid rgb(255, 255, 255);
+  display: block;
+  justify-content: center;
+  margin-left: 45em;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  width: 20em;
+  color: #ffa200;
+  border-radius: 0.5em;
+  padding: .5em .5em;
+}
+
+.book-field-header{
+  margin-left: 4em;
+  margin-top: 2em;
+  border: solid rgb(0, 0, 0);
+  background-color: #674848;
+}
+
+.book-field{
+  margin-left: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: solid black;
+}
+
+.Submit{
+ margin-left: 10em;
+ background-color: #ffa200;
+ padding: .5em .5em;
+ transition: width 2s, height 2s;
+}
+
+.Submit:hover{
+   background-color: #ffffffb0;
+ }
+
+ .h2-form{
+  background-color: #205f17;
+  border: solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin-left: 2em;
+  width: 10em;
+  color: #ffa200;
+  border-radius: 0.5em;
+ }
+
+ .book-footer{
+  position: fixed;
+  background-color: #267c19;
+  border: solid #ffa200;
+  color: white;
+  text-align: center;
+  margin-top: -3.5em;
+  width: 118em;
+ }
 /*#endregion*/
