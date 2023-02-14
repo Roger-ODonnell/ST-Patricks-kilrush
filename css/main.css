@@ -241,13 +241,13 @@ body {
   border: solid rgb(255, 255, 255);
   display: block;
   justify-content: center;
-  margin-left: 45em;
+  margin-left: 42em;
   margin-top: 2em;
   margin-bottom: 4em;
   width: 20em;
   color: #ffa200;
   border-radius: 0.5em;
-  padding: .5em .5em;
+  padding: .5em 5em;
 }
 
 .book-field-header{
@@ -255,12 +255,14 @@ body {
   margin-top: 2em;
   border: solid rgb(0, 0, 0);
   background-color: #674848;
+  padding: .3em .3em;
 }
 
 .book-field{
   margin-left: 5em;
   margin-top: 1em;
   margin-bottom: 1em;
+  padding: .3em .3em;
   border: solid black;
 }
 
